@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300;400;500;600;700&display=swap');
+
+
+.signup-photo {
+    color: wheat;
+    background-image: url("../media/frame.svg");
+    height: 504px;
+    width: 415px;
+}
+
+.logo-text {
+    padding-top: 50px;
+}
+
+.logo-text .text {
+    margin: 0 10px;
+    font-family: 'Signika', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.24em;
+    color: #3F414E;
+}
+
+.main-photo {
+    margin-top: 80px;
+}
+
+.expression-text {
+    margin-top: 30px;
+}
+
+.expression-text .text-tittle {
+    font-family: 'Signika', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 135%;
+    color: #3F414E;
+    margin-bottom: 1rem;
+}
+
+.expression-text .text {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 165%;
+    color: #A1A4B2;
+}
+
+.signup-button {
+    padding: 24px 156px;
+    background-color: #8E97FD;
+    border-radius: 38px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 108.1%;
+    letter-spacing: 0.05em;
+    color: #F6F1FB;
+    text-decoration: none;
+    margin-top: 62px;
+}
+
+.signup-button:hover {
+    color: #F6F1FB;
+}
+
+.signup-text-place {
+    margin-top: 20px;
+}
+
+.signup-text-place .text {
+    font-family: 'Signika', sans-serif;
+    font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 108.1%;
+letter-spacing: 0.05em;
+color: #A1A4B2;
+}
+
+.signup-text-place a {
+    font-family: 'Signika', sans-serif;
+    font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 108.1%;
+letter-spacing: 0.05em;
+text-decoration: none;
+color: #8E97FD;
+margin-left: 4px;
+}
+
