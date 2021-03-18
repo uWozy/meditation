@@ -1,0 +1,37 @@
+body {
+    background-color: #8C96FF;
+}
+
+.showcase {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+
+}
+
+.mobile-showcase {
+    border-radius: 50px;
+    background-color: #3F4553;
+    height: 882px;
+    width: 415px;
+    padding: 16px;
+    margin: 6px;
+}
+
+.showcase iframe {
+    border:none;
+}
+
+.mobile-showcase-inner {
+    border-radius: 40px;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+.mobile-showcase iframe {
+    height: 100%;
+    width: 100%;
+}
