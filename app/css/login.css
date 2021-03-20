@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300;400;500;600;700&display=swap');
+
+body {
+    background-color:white;
+}
+
+.app-inner {
+    background-image: url("../media/login-bg.svg");
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 415px;
+}
+
+.back-button {
+    margin-top: 50px;
+    margin-left: 20px;
+    border-radius: 60px;
+    padding:12px 16px 16px 17px ;
+    border: solid 1px #EBEAEC;
+    background-color: white;
+}
+
+.back-button:active {
+    position:relative;
+	top:1px;    
+}
+
+.login-tittle {
+    font-family: 'Signika', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 135%;
+    color: #3F414E;
+    margin-top: 28px;
+}
+
+.connection-fb {
+    border: none;
+    background: #7583CA;
+    border-radius: 38px;
+    font-family: 'Signika', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 108.1%;
+    letter-spacing: 0.05em;
+    color: #F6F1FB;
+    padding-right: 74px;
+    padding-top:24px ;
+    padding-bottom:24px ;
+    margin-top: 33px;
+    min-width:374px ;
+    max-height: 63px;
+}
+
+.connection-fb:active {
+    position: relative;
+    top: 1px;
+}
+
+.fb-img {
+    margin-right: 46px;
+    margin-left: 35px;
+}
+
+.connection-gg {
+    border: solid 1px #EBEAEC;
+    background: white;
+    border-radius: 38px;
+    font-family: 'Signika', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 108.1%;
+    letter-spacing: 0.05em;
+    color: #3F414E;
+    padding-right: 74px;
+    padding-top:24px;
+    padding-bottom:24px;
+    margin-top: 20px;
+    min-width:374px ;
+    max-height: 63px;
+}
+
+.connection-gg:active {
+    position: relative;
+    top: 1px;
+}
+
+.gg-img {
+    margin-right: 46px;
+    margin-left: 35px;
+}
+
+.login-text {
+    font-family: 'Signika', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 108.1%;
+    letter-spacing: 0.05em;
+    color: #A1A4B2;
+    margin-top: 40px;
+}
+
+
+.login-email {
+    margin-top: 40px;
+    height: 63px;
+    width: 374px;
+    background-color: #F2F3F7;
+    border-radius: 15px;
+    border: none;
+    padding-left: 20px;
+}
+
+.login-email:focus {
+    border: none;
+    outline: none;
+}
+
+
+.login-password {
+    margin-top: 20px;
+    height: 63px;
+    width: 374px;
+    background-color: #F2F3F7;
+    border-radius: 15px;
+    border: none;
+    padding-left: 20px;
+}
+
+.login-password:focus {
+    border: none;
+    outline: none;
+}
+
+.login-button {
+    border: none;
+    padding: 24px 156px;
+    background-color: #8E97FD;
+    border-radius: 38px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 108.1%;
+    letter-spacing: 0.05em;
+    color: #F6F1FB;
+    margin-top: 30px;
+}
+
+.login-button:active {
+    position: relative;
+    top: 1px;
+}
+
+.forgot-password {
+    font-family: 'Signika', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 108.1%;
+    letter-spacing: 0.05em;
+    color: #3F414E;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.forgot-password:hover {
+    color: #3F414E;
+}
+
+.signup-text-place .text {
+    font-family: 'Signika', sans-serif;
+    font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 108.1%;
+letter-spacing: 0.05em;
+color: #A1A4B2;
+margin-top: 104px;
+}
+
+.signup-text-place a {
+    font-family: 'Signika', sans-serif;
+    font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 108.1%;
+letter-spacing: 0.05em;
+text-decoration: none;
+color: #8E97FD;
+margin-left: 4px;
+}
