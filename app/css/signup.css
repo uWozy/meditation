@@ -1,15 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Signika:wght@300;400;500;600;700&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+    display: none;
+}
+
 
 .signup-photo {
     color: wheat;
     background-image: url("../media/frame.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center bottom;
     height: 504px;
     width: 100%;
 }
 
 .logo-text {
     padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .logo-text .text {
@@ -25,6 +39,9 @@
 
 .main-photo {
     margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .expression-text {
@@ -39,6 +56,9 @@
     line-height: 135%;
     color: #3F414E;
     margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .expression-text .text {
@@ -47,20 +67,28 @@
     font-size: 16px;
     line-height: 165%;
     color: #A1A4B2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup-button-place {
+    display: flex;
+    justify-content: center;
 }
 
 .signup-button {
-    padding: 24px 156px;
+    height: 63px;
+    text-align: center;
+    width: 100%;
+    padding: 24px;
     background-color: #8E97FD;
     border-radius: 38px;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
-    line-height: 108.1%;
     letter-spacing: 0.05em;
     color: #F6F1FB;
     text-decoration: none;
-    margin-top: 62px;
+    margin: 62px 20px 0px 20px;
 }
 
 .signup-button:hover {
@@ -73,27 +101,29 @@
 
 .signup-text-place {
     margin-top: 20px;
+    display: flex;
+    justify-content: center;
 }
 
 .signup-text-place .text {
     font-family: 'Signika', sans-serif;
     font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 108.1%;
-letter-spacing: 0.05em;
-color: #A1A4B2;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 108.1%;
+    letter-spacing: 0.05em;
+    color: #A1A4B2;
 }
 
 .signup-text-place a {
     font-family: 'Signika', sans-serif;
     font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 108.1%;
-letter-spacing: 0.05em;
-text-decoration: none;
-color: #8E97FD;
-margin-left: 4px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 108.1%;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+    color: #8E97FD;
+    margin-left: 4px;
 }
 
