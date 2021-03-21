@@ -5,7 +5,7 @@
     color: wheat;
     background-image: url("../media/frame.svg");
     height: 504px;
-    width: 415px;
+    width: 100%;
 }
 
 .logo-text {
@@ -68,8 +68,7 @@
 }
 
 .signup-button:active {
-    position: relative;
-    top: 1px;
+    transform: translateY(1px);
 }
 
 .signup-text-place {
