@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300;400;500;600;700&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    background-color:white;
+}
+
+.app-inner {
+    background-image: url("../media/login-bg.svg");
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+}
+
+.back-button {
+    margin-top: 50px;
+    margin-left: 20px;
+    border-radius: 60px;
+    padding:12px 16px 16px 17px ;
+    border: solid 1px #EBEAEC;
+    background-color: white;
+}
+
+.back-button:active {
+    transform: translateY(1px);    
+}
+
+.tittle {
+    font-family: 'Signika', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 135%;
+    color: #3F414E;
+    margin-top: 28px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 33px;
+}
+
+.login-with-connection {
+    margin: 0px 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.connection-fb {
+    text-align: center;
+    width: 100%;
+    padding: 24px;
+    background: #7583CA;
+    border-radius: 38px;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    color: #F6F1FB;
+    text-decoration: none;
+    font-family: 'Signika', sans-serif;
+    height: 63px;
+    background: #7583CA;
+    border-radius: 38px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 34px;
+    margin-bottom: 33px;
+ 
+}
+
+.connection-fb:active {
+    transform: translateY(1px);
+}
+
+.connection-fb:hover {
+    color: #F6F1FB;
+}
+
+.fb-img {
+    flex: none;
+    height: 24px;
+    width: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.connection-gg {
+    border: solid 1px #EBEAEC;
+    background: white;
+    color: #3F414E;
+    text-align: center;
+    width: 100%;
+    height: 63px;
+    padding: 0 34px;
+    border-radius: 38px;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+    font-family: 'Signika', sans-serif;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.connection-gg:active {
+    transform: translateY(1px);
+}
+
+.connection-gg:hover {
+    color: #3F414E;
+}
+
+.gg-img {
+    flex: none;
+    height: 24px;
+    width: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.other-option-text {
+    font-family: 'Signika', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 108.1%;
+    letter-spacing: 0.05em;
+    color: #A1A4B2;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.signup { 
+    margin: 0px 20px;
+}
+
+.signup form {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-username {
+    height: 63px;
+    width: 100%;
+    background-color: #F2F3F7;
+    border-radius: 15px;
+    border: none;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.signup-username:focus {
+    border: none;
+    outline: none;
+}
+
+
+
+.signup-email {
+    height: 63px;
+    width: 100%;
+    background-color: #F2F3F7;
+    border-radius: 15px;
+    border: none;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.signup-email:focus {
+    border: none;
+    outline: none;
+}
+
+
+.signup-password {
+    height: 63px;
+    width: 100%;
+    background-color: #F2F3F7;
+    border-radius: 15px;
+    border: none;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+
+.signup-password:focus {
+    border: none;
+    outline: none;
+}
+
+.checkbox-btn {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+
+}
+
+.checkbox-btn  {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.checkbox-btn span {
+    color: #A1A4B2;
+    letter-spacing: 0.05em;
+    font-size: 14px;
+}
+
+.checkbox-btn a {
+    text-decoration: none;
+    color:#7583CA;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+
+
+}
+
+.checkbox-btn input {
+    height: 24px;
+    width: 24px;
+    border-radius: 4px;
+   color: green;
+}
+
+
+.signup-button {
+    text-align: center;
+    width: 100%;
+    padding: 24px;
+    background-color: #8E97FD;
+    border-radius: 38px;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    color: #F6F1FB;
+    text-decoration: none;
+    height: 63px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.signup-button:hover {
+    color: #F6F1FB;
+}
+
+.signup-button:active {
+    transform: translateY(1px);
+}
