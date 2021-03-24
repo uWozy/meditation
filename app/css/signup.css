@@ -259,15 +259,12 @@ body {
     border-radius: 38px;
     font-size: 14px;
     letter-spacing: 0.05em;
-    color: #F6F1FB;
     text-decoration: none;
     height: 63px;
     border: none;
     margin-bottom: 20px;
-}
-
-.signup-button:hover {
     color: #F6F1FB;
+    
 }
 
 .signup-button:active {
