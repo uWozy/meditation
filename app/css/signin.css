@@ -164,6 +164,12 @@ body {
     padding-left: 20px;
 }
 
+.login-email:valid {
+    background-image: url("../media/ok.svg");
+    background-repeat: no-repeat;
+    background-position: right calc(100% - 100% + 20px) center;
+}
+
 .login-email:focus {
     border: none;
     outline: none;
@@ -194,15 +200,12 @@ body {
     font-size: 14px;
     letter-spacing: 0.05em;
     color: #F6F1FB;
-    text-decoration: none;
     margin-top: 30px;
     height: 63px;
     border: none;
 }
 
-.login-button:hover {
-    color: #F6F1FB;
-}
+
 
 .login-button:active {
     transform: translateY(1px);
