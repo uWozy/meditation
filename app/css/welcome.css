@@ -1,0 +1,123 @@
+body {
+    background-color: #8E97FD;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+    display: none;
+}
+
+.app-inner {
+    background-image: url("../media/welcome-bg.svg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 100vh;
+    width: 100%;
+    
+}
+
+.logo-place {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    margin-bottom: 75px;
+}
+
+.logo-place .logo-text {
+    font-size: 16px;
+    letter-spacing: 0.24em;
+    color: #FFFFFF;
+}
+
+.logo-place .logo {
+    margin: 0px 10px ;
+}
+
+
+.tittle-text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+    
+}
+
+.tittle-text .head-text {
+    font-size: 30px;
+    letter-spacing:0.01em;
+    font-weight: bold;
+    color: #FFECCC;
+    text-align: center;
+}
+
+.tittle-text .text {
+    font-size: 30px;
+    letter-spacing:0.01em;
+    color: #FFECCC;
+    text-align: center;
+}
+
+.instructions-text {
+    margin: 0 48px;
+    margin-bottom:130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.instructions-text .text {
+    
+    font-weight: 300;
+    font-size: 16px;
+    text-align: center;
+    color: #EBEAEC;
+    max-width: 317px;
+    
+   
+}
+
+/*spagetti code*/
+
+.icon {
+    width: 100%;
+}
+
+.img-under {
+    background-color: #8C96FF;
+}
+
+.signup-button-place {
+    margin:0 20px ;
+    height: 25vh;
+}
+
+.signup-space {
+    background-color: #8C96FF;
+    padding-bottom: 84px;
+}
+
+.signup-button {
+    text-align: center;
+    width: 100%;
+    padding: 24px;
+    background-color: #EBEAEC;
+    border-radius: 38px;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+    height: 63px;
+    border: none;
+    color: #3F414E;
+       
+}
+
+.signup-button:active {
+    transform: translateY(1px);
+
+}
