@@ -1,0 +1,19 @@
+html {
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+    display: none;
+}
+
+.app-inner {
+    background-color: #FFFFFF;
+    background-image: url("../media/topic-bg.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+
+
