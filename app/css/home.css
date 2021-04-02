@@ -1,0 +1,122 @@
+html {
+  scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  background-color:white;
+}
+
+.logo-text {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.logo-text .text {
+  margin: 0 10px;
+  font-family: 'Signika', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: 0.24em;
+  color: #3F414E;
+}
+
+.tittle-text {
+  margin:0 8px;
+
+}
+
+.tittle-text .head-text {
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 38px;
+  color: #3F414E;
+}
+
+
+.tittle-text .text {
+  font-weight: 300;
+  font-size: 20px;
+  color: #A1A4B3;
+}
+
+.group-button {
+  text-decoration: none;
+}
+
+.blue-box {
+  background-color:#8E97FD ;
+  height: 210px;
+  max-width: 177px;
+  width: 100%;
+  border-radius: 10px;
+
+}
+
+.blue-box-image {
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.blue-box-image img {
+  border-radius: 10px;
+  
+}
+
+.blue-box-tittle-text {
+  margin:0 15px;
+  margin-bottom: 35px;
+}
+
+.blue-box-tittle-text .head-text {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  color: #FFECCC;
+}
+
+
+.blue-box-tittle-text .text {
+  font-size: 11px;
+  color: #FFECCC;
+  text-decoration: none;
+  letter-spacing: 0.05em;
+}
+
+.blue-box-footer {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  margin: 0 15px;
+}
+
+.blue-box-footer .time-text {
+  font-size: 11px;
+  color: #EBEAEC;
+}
+
+.blue-box-footer .box-button {
+  text-decoration: none;
+  background-color: #EBEAEC;
+  color: #3F414E;
+  height:35px;
+  width:70px;
+  border-radius: 25px;
+  padding: 0;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
