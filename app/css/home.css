@@ -54,10 +54,12 @@ body {
   display: flex;
   justify-content:space-between;
   margin-bottom: 20px;
+  width: 100%;
 }
 
 .group-button {
   text-decoration: none;
+  
 }
 
 .blue-box {
@@ -66,12 +68,13 @@ body {
   max-width: 177px;
   width: 100%;
   border-radius: 10px;
-
+  
 }
 
 @media (max-width:400px) {
   .blue-box {
     margin-right: 20px;
+    margin-left: 8px;
   }  
 }
 
@@ -143,6 +146,7 @@ body {
   max-width: 177px;
   width: 100%;
   border-radius: 10px;
+  margin-right: 8px;
 
 }
 
@@ -336,6 +340,7 @@ color: #3F414E;
   width: 100%;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .nav-item {
@@ -345,6 +350,18 @@ color: #3F414E;
   padding: 0 20px;
 }
 
+@media (max-width:375px) {
+  .nav-item {
+    padding: 0 15px !important;
+  }
+}
+
+@media (max-width:325px) {
+  .nav-item {
+    padding: 0 10px !important;
+  }
+}
+
 .nav-icon {
   margin-bottom: 18px;
 }
@@ -352,11 +369,6 @@ color: #3F414E;
 .nav-text {
   color: #A0A3B1;
   font-size: 14px;
-}
-
-
-.selected {
- 
 }
 
 .selected .nav-icon {
