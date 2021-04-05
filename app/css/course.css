@@ -224,6 +224,10 @@ color: #A1A4B2;
   color: #A1A4B2;;
 }
 
+.last-item {
+  border-bottom: none !important; 
+  margin-bottom: 0 !important;
+}
 
 
 
