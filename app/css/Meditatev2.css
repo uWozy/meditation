@@ -98,7 +98,7 @@ html::-webkit-scrollbar {
   display: flex;
   align-items: center;
   justify-content:space-between;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   margin-left: 8px;
   margin-right: 8px;
 }
@@ -221,4 +221,80 @@ html::-webkit-scrollbar {
   display: flex;
   justify-content:space-between;
   margin: 0 6px;
+}
+
+.app-navbar {
+  height: 98px;
+  overflow: hidden;
+  background-color: #FFFFFF;
+  box-shadow: 2px -5px 17px rgba(84, 87, 92, 0.1);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 18px;
+}
+
+@media (max-width:375px) {
+  .nav-item {
+    padding: 0 15px !important;
+  }
+}
+
+@media (max-width:325px) {
+  .nav-item {
+    padding: 0 10px !important;
+  }
+}
+
+.nav-icon {
+  margin-bottom: 18px;
+}
+
+.nav-text {
+  color: #A0A3B1;
+  font-size: 14px;
+}
+
+.selected {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.selected .nav-icon {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  background-color:#8E97FD ;
+  margin-bottom:5px !important;
+  border-radius: 18px;
+  max-height: 46px;
+  max-width:46px ;
+}
+
+.selected .nav-text {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #8E97FD !important;
+}
+
+.page-passage {
+  text-decoration:none ;
+}
+
+.page-passage .nav-icon:active {
+  transform: translateY(1px)
 }
