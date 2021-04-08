@@ -1,0 +1,76 @@
+html {
+    scroll-behavior: smooth;
+}
+  
+html::-webkit-scrollbar {
+    display: none;
+}
+
+.app-inner {
+  background-image: url("../media/musicbg.svg");
+  background-size: cover;
+  background-color: #FAF7F2;
+  height: 100vh;
+}
+
+.functional-menu {
+  display: flex;
+  justify-content:space-between;
+  margin-bottom: 286px;
+}
+
+.back-button {
+  margin-top: 50px;
+  margin-left: 20px;
+  border-radius: 60px;
+  padding:12px 16px 16px 17px ;
+  border: solid 1px #EBEAEC;
+  background-color: white;
+}
+
+.back-button:active {
+  transform: translateY(1px);    
+}
+
+.functional-buttons {
+  margin-top: 50px;
+  display: flex;
+  margin-right: 20px;
+}
+
+.functional-button {
+  height: 55px;
+  width: 55px;
+  background-color: rgb(182,184,191,0.8);
+  border-radius: 38px;
+  border: none;
+}
+
+.functional-button:active {
+  transform: translateY(1px);    
+}
+
+.tittle-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+.head-text {
+  font-weight: bold;
+  line-height: 37px;
+  text-align: center;
+  color: #3F414E;
+  font-size: 34px;
+  margin-bottom: 15px;
+}
+
+.text {
+  font-size: 14px;
+  text-align: center;
+  line-height: 108.1%;
+  color: #A0A3B1;
+  letter-spacing: 0.05em;
+}
