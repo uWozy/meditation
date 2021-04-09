@@ -9,6 +9,7 @@ html::-webkit-scrollbar {
 .app-inner {
   background-image: url("../media/musicbg.svg");
   background-size: cover;
+  background-repeat: no-repeat;
   background-color: #FAF7F2;
   height: 100vh;
 }
@@ -55,7 +56,7 @@ html::-webkit-scrollbar {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  
+  margin-bottom: 70px;
 }
 
 .head-text {
@@ -74,3 +75,79 @@ html::-webkit-scrollbar {
   color: #A0A3B1;
   letter-spacing: 0.05em;
 }
+
+.buttons-place {
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  margin: 0 50px;
+}
+
+.main-button {
+  height: 110px;
+  width: 110px;
+  background-color: hsl(230, 10%, 75%, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 60px;
+}
+
+.main-button div {
+  height: 88px;
+  width: 88px;
+  background-color: #3F414E;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.timeline {
+  display: flex;
+  margin: 0 20px;
+  align-items: center;
+}
+
+.line {
+  position: relative;
+}
+
+
+.content {
+  position: relative;
+  height: 13px;
+  width: 13px;
+  z-index: 1;
+  background-color: #3F414E;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.content::before {
+  content:"";
+  position:absolute;
+  left: -28px;
+  z-index: 1;
+  width: 30px;
+  height: 3px;
+  background-color: #3F414E;
+  border-radius: 20px;
+  
+}
+
+.line:after {
+  content:"";
+  position:absolute;
+  z-index: 0;
+  left: -2px;
+  bottom: -1px;
+  width: 270px;
+  height: 3px;
+  background-color: #A0A3B1;
+  border-radius: 20px;
+}
+
