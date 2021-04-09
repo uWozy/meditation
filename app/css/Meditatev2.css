@@ -149,6 +149,7 @@ html::-webkit-scrollbar {
   display: flex;
   justify-content:space-between;
   margin: 0 6px;
+  padding-bottom: 80px;
 }
 
 .blue-box {
