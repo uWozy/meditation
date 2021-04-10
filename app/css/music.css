@@ -14,6 +14,12 @@ html::-webkit-scrollbar {
   height: 100vh;
 }
 
+@media (max-width:320px) {
+  .app-inner {
+    height: 100%;
+  }
+}
+
 .functional-menu {
   display: flex;
   justify-content:space-between;
@@ -110,6 +116,7 @@ html::-webkit-scrollbar {
   display: flex;
   margin: 0 20px;
   align-items: center;
+  margin-bottom: 20px !important;
 }
 
 .line {
@@ -152,5 +159,17 @@ html::-webkit-scrollbar {
   height: 3px;
   background-color: #A0A3B1;
   border-radius: 20px;
+}
+
+.sound-time {
+  display: flex; 
+  justify-content: space-between;
+}
+
+.sound-time .item {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #3F414E;
+  line-height: 108.1%;
 }
 
