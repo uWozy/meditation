@@ -212,7 +212,6 @@ color: #A1A4B2;
 }
 
 .list-item img {
-  margin-right: 20px;
 }
 
 .item-texts .head-text {
@@ -233,6 +232,21 @@ color: #A1A4B2;
   margin-bottom: 0 !important;
 }
 
+.item-button {
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  border: #A1A4B2 1px solid;
+  border-radius: 50px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
 
-
+.selected-button {
+  background-color: #8E97FD !important;
+  border: none !important;
+}
 
