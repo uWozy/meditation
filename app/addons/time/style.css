@@ -1,0 +1,106 @@
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+
+body {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow: hidden;
+  }
+  
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    background: #F5F5F9;
+  }
+  
+  .wheel {
+    color: rgb(0, 0, 0);
+    display: block;
+    height: 152px;
+    overflow: visible;
+    width: 100%;
+  }
+  .wheel--perspective-right .wheel__inner {
+    perspective-origin: calc(50% + 100px) 50%;
+    transform: translateX(10px);
+    -webkit-transform: translateX(10px);
+  }
+  .wheel--perspective-left .wheel__inner {
+    perspective-origin: calc(50% - 100px) 50%;
+    transform: translateX(-10px);
+    -webkit-transform: translateX(-10px);
+  }
+  
+  .wheel__inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+    height: 16%;
+    width: 100%;
+  }
+  
+  .wheel__slides {
+    height: 100%;
+    position: relative;
+    width: 100%;
+  }
+  
+  .wheel__shadow-top,
+  .wheel__shadow-bottom {
+    background: linear-gradient(
+      to bottom,
+      rgba(245,245,249, 0.9) 0%,
+      rgba(245,245,249, 0.5) 100%
+    );
+    left: 0;
+    height: calc(42% + 2px);
+    width: 100%;
+    border-bottom: 1px solid #E1E1E5;
+    position: relative;
+    margin-top: -2px;
+    z-index: 5;
+    transform: translateZ(100px);
+    -webkit-transform: translateZ(100px);
+  }
+  
+  .wheel__shadow-bottom {
+    background: linear-gradient(
+      to bottom,
+      rgba(245,245,249, 0.5) 0%,
+      rgba(245,245,249, 0.9) 100%
+    );
+    margin-top: 2px;
+    border-bottom: none;
+    border-top: 0.5px solid #E1E1E5;
+  }
+  
+  .wheel__label {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1;
+    margin-top: 1px;
+    margin-left: 5px;
+    transform: translateZ(100px);
+    -webkit-transform: translateZ(100px);
+  }
+  
+  .wheel__slide {
+    align-items: center;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    display: flex;
+    font-size: 20px;
+    font-weight: 400;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    justify-content: flex-end;
+  }
+  
