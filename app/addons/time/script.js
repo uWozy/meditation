@@ -107,11 +107,11 @@ function Wheel(wrapper, options) {
   
   function formatDate(idx) {
     return moment('Mon 03-Jul-2017, 11:00 AM').subtract(idx,"npm").format('a');
-   /* return moment('Mon 03-Jul-2017, 11:00 PM').subtract(idx,"npm").format('a'); */
-     
+    /*return moment('Mon 03-Jul-2017, 11:00 PM').subtract(idx,"npm").format('a');
+     */
   }
-
  
+
   new Wheel(document.getElementById("date-wheel"), {
     loop: false,
     length: 2,
