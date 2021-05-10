@@ -1,5 +1,6 @@
 html {
     scroll-behavior: smooth;
+    background-color:#03174C ;
 }
 
 html::-webkit-scrollbar {
@@ -8,11 +9,9 @@ html::-webkit-scrollbar {
 
 .app__inner {
     background-color:#03174C ;
-    color: #03174C;
     background-image: url("../media/sleepmod-bg.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
+    background-size:cover;
+    height: 100%;
     width: 100%;
 }
 
@@ -22,7 +21,7 @@ html::-webkit-scrollbar {
     align-items: center;
     flex-direction: column;
     margin-bottom: 68px;
-    padding-top: 155px;
+    padding-top: 100px;
 }
 
 .text__place .head__text {
@@ -40,7 +39,7 @@ html::-webkit-scrollbar {
 
 .background__icon {
     height: 229px;
-    margin-bottom: 120px;
+    margin-bottom: 150px;
 }
 
 .background__icon img {
@@ -51,7 +50,8 @@ html::-webkit-scrollbar {
 }
 
 .button__place {
-    margin: 0 20px;
+    margin: 0 8px;
+    padding-bottom: 80px;
 }
 
 .start__button {
