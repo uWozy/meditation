@@ -1,0 +1,78 @@
+html {
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+    display: none;
+}
+
+.app__inner {
+    background-color:#03174C ;
+    color: #03174C;
+    background-image: url("../media/sleepmod-bg.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.text__place {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 68px;
+    padding-top: 155px;
+}
+
+.text__place .head__text {
+    font-size: 30px;
+    color: #e6e7f2;
+    font-weight: 700px;
+    margin-bottom: 15px;
+}
+
+.text__place .text {
+    font-size: 16px;
+    color:#ebeaec;
+    text-align: center;
+}
+
+.background__icon {
+    height: 229px;
+    margin-bottom: 120px;
+}
+
+.background__icon img {
+    width: 92%;
+    position:absolute;
+    right: 0;
+    
+}
+
+.button__place {
+    margin: 0 20px;
+}
+
+.start__button {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+    color: #F6F1FB;
+    width: 100%;
+    height: 63px;
+    background-color: #8E97FD;
+    text-align: center;
+    border-radius:38px;
+    
+}
+
+.start__button:hover {
+   color: #F6F1FB;
+}
+
+.start__button:active {
+    transform: translateY(1px);
+}
+
